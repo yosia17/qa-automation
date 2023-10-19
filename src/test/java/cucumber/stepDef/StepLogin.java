@@ -16,15 +16,21 @@ public class StepLogin {
     WebDriver driver;
     String baseUrl = "https://www.saucedemo.com/";
 
-    @Given("User on Login Page")
-    public void userOnLoginPage() {
+    public StepLogin() {
         WebDriverManager.chromedriver().setup();
 
         driver = new ChromeDriver();
         driver.manage().window().setSize(new Dimension(1920, 1080));
         driver.manage().timeouts().implicitlyWait(10, java.util.concurrent.TimeUnit.SECONDS);
         driver.get(baseUrl);
+    }
 
+    public WebDriver getDriver() {
+        return driver;
+    }
+
+    @Given("User on Login Page")
+    public void userOnLoginPage() {
         String loginPageAssert = driver.findElement(By.cssSelector(".login_logo")).getText();
         Assert.assertEquals("Swag Labs", loginPageAssert);
     }
@@ -43,7 +49,6 @@ public class StepLogin {
     public void userClickButtonLogin() {
         driver.findElement(By.cssSelector("input[data-test=login-button]")).click();
     }
-
 
     @Then("User get success login")
     public void userGetSuccessLogin() {
