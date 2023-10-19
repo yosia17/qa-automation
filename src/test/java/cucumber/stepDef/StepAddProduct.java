@@ -36,9 +36,11 @@ public class StepAddProduct {
         driver.findElement(By.cssSelector("a[class=shopping_cart_link]")).click();
     }
 
-    @Then("I should see the {} in the cart")
-    public void iShouldSeeTheInTheCart(String arg0) {
+    @Then("User should see the {} in the cart")
+    public void UserShouldSeeTheInTheCart(String arg0) {
         String cartPageAssert = driver.findElement(By.cssSelector("div[class=inventory_item_name]")).getText();
         Assert.assertEquals(arg0, cartPageAssert);
+
+        driver.quit();
     }
 }

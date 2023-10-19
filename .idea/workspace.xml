@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20696e82-e5c6-4e3b-8867-4a15ffe3a596" name="Changes" comment="refactor: use DDT for negative test login feature">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/resource/features/addProduct.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepAddProduct.java" afterDir="false" />
+    <list default="true" id="20696e82-e5c6-4e3b-8867-4a15ffe3a596" name="Changes" comment="add testing add product to cart feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepLogout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepLogout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/resource/features/addProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/resource/features/addProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepAddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepAddProduct.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697639907611</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor: reusable step definition">
+      <option name="closed" value="true" />
+      <created>1697685237262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697685237262</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add testing add product to cart feature">
+      <option name="closed" value="true" />
+      <created>1697685280994</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697685280994</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +217,8 @@
     <MESSAGE value="add testing login feature" />
     <MESSAGE value="add testing logout feature" />
     <MESSAGE value="refactor: use DDT for negative test login feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: use DDT for negative test login feature" />
+    <MESSAGE value="refactor: reusable step definition" />
+    <MESSAGE value="add testing add product to cart feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="add testing add product to cart feature" />
   </component>
 </project>
