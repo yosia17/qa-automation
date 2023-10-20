@@ -16,6 +16,10 @@ public class StepAddProduct {
         this.driver = stepLogout.getDriver();
     }
 
+    public WebDriver getDriver() {
+        return driver;
+    }
+
     @Given("User is on the product page")
     public void userIsOnTheProductPage() {
         stepLogout.userIsLoggedIn();

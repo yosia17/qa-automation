@@ -43,5 +43,7 @@ public class StepLogout {
     public void userIsLoggedOut() {
         String loginPageAssert = driver.findElement(By.cssSelector(".login_logo")).getText();
         Assert.assertEquals("Swag Labs", loginPageAssert);
+
+        driver.quit();
     }
 }

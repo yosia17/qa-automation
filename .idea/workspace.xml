@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20696e82-e5c6-4e3b-8867-4a15ffe3a596" name="Changes" comment="add testing add product to cart feature">
+    <list default="true" id="20696e82-e5c6-4e3b-8867-4a15ffe3a596" name="Changes" comment="add testing checkout feature">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/resource/features/checkout.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepCheckout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/resource/features/addProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/resource/features/addProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/runner/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepAddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepAddProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepLogout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepLogout.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
 }</component>
   <component name="RunManager" selected="Cucumber Java.Feature: addProduct">
@@ -59,7 +66,26 @@
         </pattern>
       </extension>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/resource/features/checkout.feature" />
+      <option name="GLUE" value="cucumber.stepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="qa-automation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: checkout" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
@@ -80,7 +106,6 @@
         </pattern>
       </extension>
       <method v="2">
-        <option name="Make" enabled="true" />
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
@@ -101,43 +126,38 @@
         </pattern>
       </extension>
       <method v="2">
-        <option name="Make" enabled="true" />
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Failed Login Invalid Credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/resource/features/login.feature" />
-      <option name="GLUE" value="cucumber.stepDef" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa-automation" />
-      <option name="NAME_FILTER" value="^Failed Login Invalid Credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Failed Login Invalid Credentials$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Failed Login Invalid Credentials" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="cucumber.runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cucumber.runner" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.runner.Runner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: checkout" />
       <item itemvalue="Cucumber Java.Feature: addProduct" />
-      <item itemvalue="Cucumber Java.Scenario: Failed Login Invalid Credentials" />
       <item itemvalue="Cucumber Java.Feature: login" />
       <item itemvalue="Cucumber Java.Feature: logout" />
+      <item itemvalue="JUnit.Runner" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: addProduct" />
-        <item itemvalue="Cucumber Java.Feature: logout" />
+        <item itemvalue="Cucumber Java.Feature: checkout" />
         <item itemvalue="Cucumber Java.Feature: login" />
-        <item itemvalue="Cucumber Java.Scenario: Failed Login Invalid Credentials" />
+        <item itemvalue="Cucumber Java.Feature: logout" />
+        <item itemvalue="JUnit.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697685280994</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add more example testing add product to cart feature">
+      <option name="closed" value="true" />
+      <created>1697687151459</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697687151459</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +247,8 @@
     <MESSAGE value="refactor: use DDT for negative test login feature" />
     <MESSAGE value="refactor: reusable step definition" />
     <MESSAGE value="add testing add product to cart feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="add testing add product to cart feature" />
+    <MESSAGE value="add more example testing add product to cart feature" />
+    <MESSAGE value="add testing checkout feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="add testing checkout feature" />
   </component>
 </project>
