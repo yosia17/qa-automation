@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20696e82-e5c6-4e3b-8867-4a15ffe3a596" name="Changes" comment="add testing checkout feature">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/resource/features/checkout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepCheckout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepAddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepAddProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepLogout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/stepDef/StepLogout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/runner/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,25 +28,30 @@
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
+  <component name="ProjectCucumberState">
+    <option name="filterByTags" value="false" />
+    <option name="groupTag" value="false" />
+  </component>
   <component name="ProjectId" id="2WvvaQdhxix4D7kJLBOpIbzDJFJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
-}</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: addProduct">
+}]]></component>
+  <component name="RunManager">
     <configuration name="Feature: addProduct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/cucumber/resource/features/addProduct.feature" />
@@ -129,16 +132,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa-automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.runner.*" />
+          <option name="PATTERN" value="cucumber.runner.TestRunner" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cucumber.runner" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.runner.Runner" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.runner.TestRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,15 +152,15 @@
       <item itemvalue="Cucumber Java.Feature: addProduct" />
       <item itemvalue="Cucumber Java.Feature: login" />
       <item itemvalue="Cucumber Java.Feature: logout" />
-      <item itemvalue="JUnit.Runner" />
+      <item itemvalue="JUnit.TestRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: logout" />
         <item itemvalue="Cucumber Java.Feature: addProduct" />
         <item itemvalue="Cucumber Java.Feature: checkout" />
         <item itemvalue="Cucumber Java.Feature: login" />
-        <item itemvalue="Cucumber Java.Feature: logout" />
-        <item itemvalue="JUnit.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697687151459</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add testing checkout feature">
+      <option name="closed" value="true" />
+      <created>1697769384062</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697769384062</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
